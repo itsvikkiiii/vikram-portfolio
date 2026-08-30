@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="Vikram Varma Certificate">
+
+  <title>Certificate | Vikram Varma</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="certificate-page">
+
+  <header class="nav">
+
+    <a class="logo" href="index.html">
+      VV<span>.</span>
+    </a>
+
+    <nav>
+      <a href="index.html#about">About</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#projects">Projects</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+
+  </header>
+
+
+  <main class="certificate-view">
+
+    <div class="certificate-heading">
+
+      <a href="index.html#education" class="back-button">
+        ← Back to Portfolio
+      </a>
+
+      <p class="eyebrow">CERTIFICATE</p>
+
+      <h1 id="certificate-title">
+        Certificate
+      </h1>
+
+      <p id="certificate-subtitle">
+        Bethapudi Vikram Varma
+      </p>
+
+    </div>
+
+
+    <div class="certificate-image-container">
+
+      <img
+        id="certificate-image"
+        src=""
+        alt="Vikram Varma Certificate"
+      >
+
+    </div>
+
+  </main>
+
+
+  <footer>
+    <p>© 2026 Bethapudi Vikram Varma</p>
+    <p>Designed & built with HTML, CSS & JavaScript.</p>
+  </footer>
+
+
+  <script>
+
+    const certificates = {
+
+      infosys: {
+        title: "Introduction to Cyber Security",
+        subtitle: "Infosys · March 25, 2026",
+        image: "infosys-cybersecurity.png"
+      },
+
+      laws: {
+        title: "Indian Laws: Know Your Rights",
+        subtitle: "Learning Foundation Online",
+        image: "indian-laws.png"
+      },
+
+      oracle: {
+        title: "Oracle Cloud Infrastructure 2025",
+        subtitle: "Oracle · May 20, 2026",
+        image: "oracle-ai.png"
+      }
+
+    };
+
+
+    const params = new URLSearchParams(
+      window.location.search
+    );
+
+    const certificateID = params.get("cert");
+
+    const certificate =
+      certificates[certificateID] || certificates.infosys;
+
+
+    document.getElementById("certificate-title").textContent =
+      certificate.title;
+
+    document.getElementById("certificate-subtitle").textContent =
+      certificate.subtitle;
+
+    document.getElementById("certificate-image").src =
+      certificate.image;
+
+    document.getElementById("certificate-image").alt =
+      certificate.title;
+
+    document.title =
+      certificate.title + " | Vikram Varma";
+
+  </script>
+
+</body>
+</html>
