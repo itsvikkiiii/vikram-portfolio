@@ -67,3 +67,92 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-2;ba
 .back-top{position:fixed;right:25px;bottom:25px;width:43px;height:43px;border:1px solid var(--line);border-radius:50%;background:#11131b;color:#fff;display:grid;place-items:center;opacity:0;pointer-events:none;transition:.25s;z-index:20;cursor:pointer}
 .back-top.show{opacity:1;pointer-events:auto}
 @media(max-width:850px){.project-grid{grid-template-columns:1fr}.project-card,.project-card.featured{min-height:340px}}
+/* =========================
+   CERTIFICATE PAGE
+========================= */
+
+.certificate-page {
+  min-height: 100vh;
+  background:
+    radial-gradient(
+      circle at 50% 0%,
+      rgba(99, 55, 180, 0.14),
+      transparent 45%
+    ),
+    #08080d;
+}
+
+.certificate-view {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 100px 0 80px;
+}
+
+.certificate-heading {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 35px;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
+}
+
+.back-button:hover {
+  color: #a78bfa;
+}
+
+.certificate-heading h1 {
+  margin: 12px 0;
+  font-size: clamp(32px, 5vw, 58px);
+  line-height: 1.05;
+  letter-spacing: -2px;
+}
+
+.certificate-heading > p:last-child {
+  color: #9696a2;
+  font-size: 16px;
+}
+
+.certificate-image-container {
+  width: 100%;
+  padding: 18px;
+  border-radius: 22px;
+
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.45);
+}
+
+.certificate-image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+/* Mobile */
+
+@media (max-width: 700px) {
+
+  .certificate-view {
+    padding: 70px 0 50px;
+  }
+
+  .certificate-image-container {
+    padding: 8px;
+    border-radius: 14px;
+  }
+
+  .certificate-heading h1 {
+    letter-spacing: -1px;
+  }
+
+}
