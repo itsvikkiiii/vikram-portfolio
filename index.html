@@ -1,192 +1,890 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Bethapudi Vikram Varma — Cybersecurity-focused Computer Science student portfolio.">
-  <title>Vikram Varma | Cybersecurity Portfolio</title>
+
+  <title>Vikram Varma | Portfolio</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
+  <!-- ================= NAVBAR ================= -->
+
   <header class="nav">
-    <a class="logo" href="#home">VV<span>.</span></a>
-    <button class="menu" aria-label="Open menu">☰</button>
+
+    <a href="#home" class="logo">
+      VV<span>.</span>
+    </a>
+
+    <button class="menu" aria-label="Open menu">
+      ☰
+    </button>
+
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
+      <a href="#training">Training</a>
+      <a href="#certifications">Certifications</a>
       <a href="#education">Education</a>
+      <a href="#activities">Activities</a>
       <a href="#contact">Contact</a>
     </nav>
+
   </header>
 
+
   <main>
+
+    <!-- ================= HERO ================= -->
+
     <section id="home" class="hero">
+
       <div class="hero-copy">
-        <p class="eyebrow">B.Tech CSE • Cybersecurity</p>
-        <h1>Hi, I'm <span>Vikram Varma.</span></h1>
-        <h2>Cybersecurity-focused Computer Science Student</h2>
-        <p class="lead">Motivated B.Tech Computer Science and Engineering student seeking opportunities to build practical skills and contribute as a Cybersecurity Analyst.</p>
+
+        <p class="eyebrow">
+          B.Tech CSE • Cybersecurity
+        </p>
+
+        <h1>
+          Hi, I'm
+          <span>Vikram Varma.</span>
+        </h1>
+
+        <h2>
+          Cybersecurity-focused Computer Science Student
+        </h2>
+
+        <p class="lead">
+          Motivated B.Tech Computer Science and Engineering student
+          interested in cybersecurity, programming and practical
+          technology projects.
+        </p>
+
         <div class="buttons">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn secondary" href="#contact">Contact Me</a>
+
+          <a href="#projects" class="btn primary">
+            View Projects
+          </a>
+
+          <a href="#contact" class="btn secondary">
+            Contact Me
+          </a>
+
         </div>
+
       </div>
+
+
       <div class="hero-card">
 
-  <div class="profile-photo">
-    <img src="vikram.jpg" alt="Vikram Varma">
-  </div>
+        <div class="profile-photo">
+          <img
+            src="vikram.jpg"
+            alt="Vikram Varma"
+          >
+        </div>
 
-  <div class="status">
-    <i></i> Open to opportunities
-  </div>
+        <div class="status">
+          <i></i>
+          Open to opportunities
+        </div>
 
-  <p>Currently studying at</p>
+        <p>Currently studying at</p>
 
-  <strong>Lovely Professional University</strong>
+        <strong>
+          Lovely Professional University
+        </strong>
 
-  <small>Phagwara, Punjab • 2025–2029</small>
+        <small>
+          Phagwara, Punjab • 2025–2029
+        </small>
 
-</div>
+      </div>
+
     </section>
+
+
+    <!-- ================= ABOUT ================= -->
 
     <section id="about" class="section">
+
       <div class="section-heading">
-        <p class="eyebrow">01 — About</p>
-        <h2>Building skills with a security mindset.</h2>
+
+        <p class="eyebrow">
+          01 — About
+        </p>
+
+        <h2>
+          Building skills with a security mindset.
+        </h2>
+
       </div>
+
+
       <div class="about-grid">
-        <p>I'm <strong>Bethapudi Vikram Varma</strong>, a B.Tech Computer Science and Engineering student specializing in Cybersecurity. I enjoy learning technologies, working on practical projects, and continuously improving my technical knowledge.</p>
+
+        <p>
+          I'm <strong>Bethapudi Vikram Varma</strong>, a B.Tech
+          Computer Science and Engineering student interested in
+          cybersecurity and technology. I enjoy learning new
+          technologies, developing practical projects and
+          continuously improving my technical skills.
+        </p>
+
+
         <div class="facts">
-          <div><span>Degree</span><strong>B.Tech CSE</strong></div>
-          <div><span>Specialization</span><strong>Cybersecurity</strong></div>
-          <div><span>CGPA</span><strong>7.53</strong></div>
-          <div><span>Location</span><strong>Phagwara, Punjab</strong></div>
+
+          <div>
+            <span>Degree</span>
+            <strong>B.Tech CSE</strong>
+          </div>
+
+          <div>
+            <span>Specialization</span>
+            <strong>Cybersecurity</strong>
+          </div>
+
+          <div>
+            <span>CGPA</span>
+            <strong>7.53</strong>
+          </div>
+
+          <div>
+            <span>Location</span>
+            <strong>Phagwara, Punjab</strong>
+          </div>
+
         </div>
+
       </div>
+
     </section>
+
+
+    <!-- ================= SKILLS ================= -->
 
     <section id="skills" class="section alt">
+
       <div class="section-heading">
-        <p class="eyebrow">02 — Skills</p>
-        <h2>Tools I work with.</h2>
+
+        <p class="eyebrow">
+          02 — Skills
+        </p>
+
+        <h2>
+          Tools I work with.
+        </h2>
+
       </div>
+
+
       <div class="skill-grid">
-        <div class="skill-card"><span>01</span><h3>Programming</h3><p>Python · JavaScript · C · C++</p></div>
-        <div class="skill-card"><span>02</span><h3>Web & Database</h3><p>HTML · CSS · PostgreSQL</p></div>
-        <div class="skill-card"><span>03</span><h3>Cybersecurity</h3><p>Cybersecurity fundamentals and continuous technical learning</p></div>
-        <div class="skill-card"><span>04</span><h3>Soft Skills</h3><p>Adaptability · Team Collaboration · Time Management</p></div>
+
+        <div class="skill-card">
+
+          <span>01</span>
+
+          <h3>
+            Programming
+          </h3>
+
+          <p>
+            C · C++ · Python · JavaScript
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <span>02</span>
+
+          <h3>
+            Web & Database
+          </h3>
+
+          <p>
+            HTML · CSS · JavaScript · PostgreSQL
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <span>03</span>
+
+          <h3>
+            Cybersecurity
+          </h3>
+
+          <p>
+            Cybersecurity fundamentals and security-focused
+            technical learning.
+          </p>
+
+        </div>
+
+
+        <div class="skill-card">
+
+          <span>04</span>
+
+          <h3>
+            Soft Skills
+          </h3>
+
+          <p>
+            Teamwork · Adaptability · Time Management
+          </p>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section id="projects" class="section projects-section">
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section">
+
       <div class="section-heading">
-        <p class="eyebrow">03 — Projects</p>
-        <h2>Things I've built & explored.</h2>
-        <p>From automation hardware to Python applications and connected IoT systems, I like turning ideas into working prototypes.</p>
+
+        <p class="eyebrow">
+          03 — Projects
+        </p>
+
+        <h2>
+          Things I've built & explored.
+        </h2>
+
+        <p>
+          Practical projects combining programming, hardware,
+          automation and IoT.
+        </p>
+
       </div>
+
 
       <div class="project-grid">
+
+
+        <!-- PROJECT 1 -->
+
         <article class="project-card featured">
-          <div class="project-top"><span class="project-index">01</span><span class="project-label">Safety Automation</span></div>
-          <div class="project-icon">🔥</div>
-          <p class="tag">Oct 2025 — Dec 2025</p>
-          <h3>Smart Fire Detection & Water Sprinkler</h3>
-          <p>A team project that detects fire and automatically activates a water sprinkler for faster response and improved safety.</p>
-          <div class="chips"><span>Arduino</span><span>GSM</span><span>IR Sensor</span><span>Automation</span></div>
+
+          <div class="project-top">
+
+            <span class="project-index">
+              01
+            </span>
+
+            <span class="project-label">
+              Safety Automation
+            </span>
+
+          </div>
+
+          <div class="project-icon">
+            🔥
+          </div>
+
+          <p class="tag">
+            Oct 2025 — Dec 2025
+          </p>
+
+          <h3>
+            Smart Fire Detection & Water Sprinkler
+          </h3>
+
+          <p>
+            A team project that detects fire and automatically
+            activates a water sprinkler to improve response
+            and safety.
+          </p>
+
+          <div class="chips">
+            <span>Arduino</span>
+            <span>GSM</span>
+            <span>IR Sensor</span>
+            <span>Automation</span>
+          </div>
+
         </article>
 
-        <article class="project-card">
-          <div class="project-top"><span class="project-index">02</span><span class="project-label">Python</span></div>
-          <div class="project-icon">📊</div>
-          <p class="tag">Academic Project</p>
-          <h3>Student Report Card</h3>
-          <p>A Python-based student report-card application designed to organize student details, marks and academic results in a simple workflow.</p>
-          <div class="chips"><span>Python</span><span>Logic</span><span>Data Handling</span></div>
-        </article>
+
+        <!-- PROJECT 2 -->
 
         <article class="project-card">
-          <div class="project-top"><span class="project-index">03</span><span class="project-label">IoT • In Progress</span></div>
-          <div class="project-icon">🌱</div>
-          <p class="tag">ESP32 + Firebase</p>
-          <h3>Smart Moisture & Vibration Monitor</h3>
-          <p>An IoT monitoring prototype using an ESP32 to collect sensor readings and connect them to a Firebase-backed dashboard for remote data viewing.</p>
-          <div class="chips"><span>ESP32</span><span>Firebase</span><span>Moisture Sensor</span><span>Vibration</span></div>
+
+          <div class="project-top">
+
+            <span class="project-index">
+              02
+            </span>
+
+            <span class="project-label">
+              Python
+            </span>
+
+          </div>
+
+          <div class="project-icon">
+            📊
+          </div>
+
+          <p class="tag">
+            Academic Project
+          </p>
+
+          <h3>
+            Student Report Card
+          </h3>
+
+          <p>
+            A Python-based application for managing student
+            details, marks and academic results.
+          </p>
+
+          <div class="chips">
+            <span>Python</span>
+            <span>Data Handling</span>
+            <span>Logic</span>
+          </div>
+
         </article>
+
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+          <div class="project-top">
+
+            <span class="project-index">
+              03
+            </span>
+
+            <span class="project-label">
+              IoT
+            </span>
+
+          </div>
+
+          <div class="project-icon">
+            🌱
+          </div>
+
+          <p class="tag">
+            ESP32 Project
+          </p>
+
+          <h3>
+            Smart Moisture & Vibration Monitor
+          </h3>
+
+          <p>
+            An IoT project using ESP32 with moisture and
+            vibration sensors for monitoring environmental
+            conditions.
+          </p>
+
+          <div class="chips">
+            <span>ESP32</span>
+            <span>Firebase</span>
+            <span>Moisture Sensor</span>
+            <span>Vibration Sensor</span>
+          </div>
+
+        </article>
+
       </div>
+
     </section>
 
-    <section id="education" class="section alt">
+
+    <!-- ================= TRAINING ================= -->
+
+    <section id="training" class="section alt">
+
       <div class="section-heading">
-        <p class="eyebrow">04 — Education & Certifications</p>
-        <h2>My learning journey.</h2>
+
+        <p class="eyebrow">
+          04 — Training
+        </p>
+
+        <h2>
+          Training & practical experience.
+        </h2>
+
+        <p>
+          Experiences that helped me develop teamwork,
+          communication and community-oriented skills.
+        </p>
+
       </div>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span>2025 — 2029</span>
-          <div><h3>Lovely Professional University</h3><p>Bachelor of Technology — Computer Science and Engineering</p><strong>Cybersecurity specialization · CGPA 7.53</strong></div>
+
+
+      <div class="training-card">
+
+        <div class="training-number">
+          01
         </div>
-        <div class="timeline-item"><span>2023 — 2025</span><div><h3>Sarada Junior College</h3><p>Higher Secondary Education · 70%</p></div></div>
-        <div class="timeline-item"><span>2022 — 2023</span><div><h3>Sri Chaitanya School</h3><p>Secondary Education · 86%</p></div></div>
+
+
+        <div class="training-content">
+
+          <p class="tag">
+            Community Development Program
+          </p>
+
+          <h3>
+            Community Development Program (CDP)
+          </h3>
+
+          <h4>
+            We Are With You Charitable Trust
+          </h4>
+
+          <p>
+            Participated in a Community Development Program
+            focused on community engagement, awareness,
+            teamwork and contributing to initiatives aimed
+            at creating a positive impact in society.
+          </p>
+
+
+          <div class="chips">
+
+            <span>Community Engagement</span>
+            <span>Teamwork</span>
+            <span>Social Awareness</span>
+
+          </div>
+
+        </div>
+
       </div>
+
+    </section>
+
+
+    <!-- ================= CERTIFICATIONS ================= -->
+
+    <section id="certifications" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          05 — Certifications
+        </p>
+
+        <h2>
+          Certifications & learning.
+        </h2>
+
+        <p>
+          Professional and technical certifications from my
+          learning journey.
+        </p>
+
+      </div>
+
+
       <div class="certs">
 
-  <a class="certificate-card" href="certificate.html?cert=infosys">
-    <div class="certificate-number">01</div>
-    <div class="certificate-content">
-      <h3>Introduction to Cyber Security</h3>
-      <p>Infosys · March 25, 2026</p>
-    </div>
-    <span class="certificate-arrow">↗</span>
-  </a>
 
-  <a class="certificate-card" href="certificate.html?cert=laws">
-    <div class="certificate-number">02</div>
-    <div class="certificate-content">
-      <h3>Indian Laws: Know Your Rights</h3>
-      <p>Learning Foundation Online</p>
-    </div>
-    <span class="certificate-arrow">↗</span>
-  </a>
+        <!-- CERTIFICATE 1 -->
 
-  <a class="certificate-card" href="certificate.html?cert=oracle">
-    <div class="certificate-number">03</div>
-    <div class="certificate-content">
-      <h3>Oracle Cloud Infrastructure 2025</h3>
-      <p>Oracle · May 20, 2026</p>
-    </div>
-    <span class="certificate-arrow">↗</span>
-  </a>
+        <a
+          href="certificate.html?cert=infosys"
+          class="certificate-card"
+        >
 
-</div>
+          <div class="certificate-number">
+            01
+          </div>
+
+          <div class="certificate-content">
+
+            <h3>
+              Introduction to Cyber Security
+            </h3>
+
+            <p>
+              Infosys · March 25, 2026
+            </p>
+
+          </div>
+
+          <span class="certificate-arrow">
+            ↗
+          </span>
+
+        </a>
+
+
+        <!-- CERTIFICATE 2 -->
+
+        <a
+          href="certificate.html?cert=laws"
+          class="certificate-card"
+        >
+
+          <div class="certificate-number">
+            02
+          </div>
+
+          <div class="certificate-content">
+
+            <h3>
+              Indian Laws: Know Your Rights
+            </h3>
+
+            <p>
+              Certification
+            </p>
+
+          </div>
+
+          <span class="certificate-arrow">
+            ↗
+          </span>
+
+        </a>
+
+
+        <!-- CERTIFICATE 3 -->
+
+        <a
+          href="certificate.html?cert=oracle"
+          class="certificate-card"
+        >
+
+          <div class="certificate-number">
+            03
+          </div>
+
+          <div class="certificate-content">
+
+            <h3>
+              Oracle Cloud Infrastructure 2025
+            </h3>
+
+            <p>
+              Oracle · May 20, 2026
+            </p>
+
+          </div>
+
+          <span class="certificate-arrow">
+            ↗
+          </span>
+
+        </a>
+
+      </div>
+
     </section>
 
-    <section class="section compact">
-      <div class="achievement"><div><p class="eyebrow">05 — Activities</p><h2>NSS Volunteer at Lovely Professional University.</h2></div><p>Participated in a team-based academic project focused on practical safety automation.</p></div>
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education" class="section alt">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          06 — Education
+        </p>
+
+        <h2>
+          My academic journey.
+        </h2>
+
+      </div>
+
+
+      <div class="timeline">
+
+
+        <div class="timeline-item">
+
+          <span>
+            2025 — 2029
+          </span>
+
+          <div>
+
+            <h3>
+              Lovely Professional University
+            </h3>
+
+            <p>
+              Bachelor of Technology — Computer Science
+              and Engineering
+            </p>
+
+            <strong>
+              Cybersecurity Specialization · CGPA 7.53
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <span>
+            2023 — 2025
+          </span>
+
+          <div>
+
+            <h3>
+              Sarada Junior College
+            </h3>
+
+            <p>
+              Intermediate / Higher Secondary Education
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="timeline-item">
+
+          <span>
+            2022 — 2023
+          </span>
+
+          <div>
+
+            <h3>
+              Sri Chaitanya School
+            </h3>
+
+            <p>
+              Secondary Education
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
     </section>
+
+
+    <!-- ================= ACTIVITIES ================= -->
+
+    <section id="activities" class="section">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">
+          07 — Activities
+        </p>
+
+        <h2>
+          Activities & involvement.
+        </h2>
+
+      </div>
+
+
+      <div class="activities-grid">
+
+
+        <div class="activity-card">
+
+          <span>01</span>
+
+          <h3>
+            Hackathons & Technical Events
+          </h3>
+
+          <p>
+            Participating in technical events and hackathons
+            to gain practical experience and solve real-world
+            problems.
+          </p>
+
+        </div>
+
+
+        <div class="activity-card">
+
+          <span>02</span>
+
+          <h3>
+            Community Participation
+          </h3>
+
+          <p>
+            Taking part in community-oriented activities
+            and collaborative initiatives.
+          </p>
+
+        </div>
+
+
+        <div class="activity-card">
+
+          <span>03</span>
+
+          <h3>
+            Continuous Learning
+          </h3>
+
+          <p>
+            Exploring new technologies, programming concepts
+            and cybersecurity topics.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
 
     <section id="contact" class="section contact">
+
       <div class="section-heading">
-        <p class="eyebrow">06 — Contact</p>
-        <h2>Let's connect.</h2>
-        <p>Have an opportunity, project, or collaboration in mind? Reach out.</p>
+
+        <p class="eyebrow">
+          08 — Contact
+        </p>
+
+        <h2>
+          Let's connect.
+        </h2>
+
+        <p>
+          Have an opportunity, project or collaboration in mind?
+          Reach out.
+        </p>
+
       </div>
+
+
       <div class="contact-grid">
-        <a href="mailto:bethapudivikramvarmaa@gmail.com"><span>Email</span><strong>bethapudivikramvarmaa@gmail.com</strong></a>
-        <a href="tel:+919855566733"><span>Mobile</span><strong>+91 9855566733</strong></a>
-        <a href="https://github.com/itsvikkiiii" target="_blank" rel="noopener"><span>GitHub</span><strong>github.com/itsvikkiiii ↗</strong></a>
-        <a href="https://www.linkedin.com/in/vikram-varma-bethapudi/" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Vikram Varma ↗</strong></a>
+
+        <a href="mailto:bethapudivikramvarmaa@gmail.com">
+
+          <span>Email</span>
+
+          <strong>
+            bethapudivikramvarmaa@gmail.com
+          </strong>
+
+        </a>
+
+
+        <a href="tel:+919855566733">
+
+          <span>Mobile</span>
+
+          <strong>
+            +91 9855566733
+          </strong>
+
+        </a>
+
+
+        <a
+          href="https://github.com/itsvikkiiii"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <span>GitHub</span>
+
+          <strong>
+            github.com/itsvikkiiii ↗
+          </strong>
+
+        </a>
+
+
+        <a
+          href="https://www.linkedin.com/in/vikram-varma-bethapudi/"
+          target="_blank"
+          rel="noopener"
+        >
+
+          <span>LinkedIn</span>
+
+          <strong>
+            Vikram Varma ↗
+          </strong>
+
+        </a>
+
       </div>
+
     </section>
+
   </main>
 
-  <div class="cursor-glow" aria-hidden="true"></div>
-  <button class="back-top" aria-label="Back to top">↑</button>
-  <footer><p>© 2026 Bethapudi Vikram Varma</p><p>Designed & built with HTML, CSS & JavaScript.</p></footer>
+
+  <!-- CURSOR EFFECT -->
+
+  <div
+    class="cursor-glow"
+    aria-hidden="true"
+  ></div>
+
+
+  <!-- BACK TO TOP -->
+
+  <button
+    class="back-top"
+    aria-label="Back to top"
+  >
+    ↑
+  </button>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 Bethapudi Vikram Varma
+    </p>
+
+    <p>
+      Designed & built with HTML, CSS & JavaScript.
+    </p>
+
+  </footer>
+
+
   <script src="script.js"></script>
+
 </body>
 </html>
+```
